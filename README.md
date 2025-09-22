@@ -152,8 +152,8 @@ npm -v # Should print "10.9.3"
 
 
 
-![Deployment Image 1](images/img1.png)
-![Deployment Image 2](images/img2.png)
-![Deployment Image 3](images/img3.png)
-![Deployment Image 4](images/img4.png)
+![Deployment Image 1](images/home.png)
+![Deployment Image 2](images/img1.png)
+![Deployment Image 3](images/img2.png)
+![Deployment Image 4](images/img3.png)
 ![Deployment Image 3](images/sonarqube.png)
