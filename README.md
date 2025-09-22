@@ -1,9 +1,7 @@
 # GitHub Actions Self-Hosted Runnner Amazon Website CICD DevOps — Setup Guide
 
 
-## For more projects, check out  
-## [https://harishnshetty.github.io/projects.html](https://harishnshetty.github.io/projects.html)
-## [youtube-Link](https://www.youtube.com/@devopsHarishNShetty)
+
 
 ---
 ![img alt](https://github.com/harishnshetty/GitHub-Action-Amazon-DevSecOps/blob/bd54e7fd5d2ce24b50614b51ceb390dc6f860334/img.png)
