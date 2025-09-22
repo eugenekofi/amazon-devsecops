@@ -1,25 +1,18 @@
 # GitHub Actions Self-Hosted Runnner Amazon Website CICD DevOps — Setup Guide
 
-
-
-
----
-
----
-
-
-
----
+![Deployment Image 4](images/diagram.png)
 
 ## Table of Contents
 
-- [Ports to Enable in Security Group](#ports-to-enable-in-security-group)
-- [Prerequisites](#prerequisites)
-- [System Update & Common Packages](#system-update--common-packages)
-- [Docker](#docker)
-- [Trivy (Vulnerability Scanner)](#trivy-vulnerability-scanner)
-- [SonarQube (Docker)](#sonarqube-docker)
-- [npm Installation](#npm-installation)
+- [GitHub Actions Self-Hosted Runnner Amazon Website CICD DevOps — Setup Guide](#github-actions-self-hosted-runnner-amazon-website-cicd-devops--setup-guide)
+  - [Table of Contents](#table-of-contents)
+  - [Ports to Enable in Security Group](#ports-to-enable-in-security-group)
+  - [System Update \& Common Packages](#system-update--common-packages)
+  - [Docker](#docker)
+  - [Trivy (Vulnerability Scanner)](#trivy-vulnerability-scanner)
+  - [SonarQube (Docker)](#sonarqube-docker)
+  - [npm Installation](#npm-installation)
+  - [Github Credentials to Store](#github-credentials-to-store)
 
 
 
@@ -156,3 +149,11 @@ npm -v # Should print "10.9.3"
 | Docker-username    | DOCKER_USERNAME   | your-docker-id   | From your Docker Hub profile       |
 | Docker-username    | DOCKER_PASSWORD   | token   | From your Docker Hub token       |
 | sonar-qube    | follow the same step
+
+
+
+![Deployment Image 1](images/img1.png)
+![Deployment Image 2](images/img2.png)
+![Deployment Image 3](images/img3.png)
+![Deployment Image 4](images/img4.png)
+![Deployment Image 3](images/sonarqube.png)
