@@ -4,7 +4,7 @@
 
 
 ---
-![img alt](https://github.com/harishnshetty/GitHub-Action-Amazon-DevSecOps/blob/bd54e7fd5d2ce24b50614b51ceb390dc6f860334/img.png)
+
 ---
 
 
