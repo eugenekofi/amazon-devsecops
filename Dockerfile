@@ -1,15 +1,31 @@
-# Build stage
-FROM node:20-alpine AS build
+# ---------- Build Stage ----------
+FROM node:alpine AS build
+
+# Set working directory
 WORKDIR /app
+
+# Copy dependency files
 COPY package*.json ./
-RUN npm ci
+
+# Install dependencies
+RUN npm install
+
+# Copy rest of the code
 COPY . .
+
+# Build optimized production build
 RUN npm run build
 
-# Production stage
+
+# ---------- Production Stage ----------
 FROM nginx:alpine
-COPY --from=build /app/dist /usr/share/nginx/html
-# Add nginx configuration if needed
-# COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Copy build output to nginx html directory
+COPY --from=build /app/build /usr/share/nginx/html
+
+# Expose port 80
 EXPOSE 80
+
+# Start nginx
 CMD ["nginx", "-g", "daemon off;"]
+# ---------- End of Dockerfile ----------
